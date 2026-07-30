@@ -82,7 +82,6 @@ timeline
 - Peer-reviewed publication and conference presentations in Malta, Spain and the UK on web conferencing
 - Doctoral research on synchronous online learning — the technical *and* social side of why sessions fail
 - Course designer and instructor: Python for precision agriculture, including Jupyter notebooks built on live weather-API data
-- Building **WebCon Companion**, a RAG-based AI knowledge assistant for synchronous online learning
 - Regularly invited to speak on technology, AI and career navigation — most recently a 60-minute talk to 100+ attendees
 
 ## 📫 Get in touch
