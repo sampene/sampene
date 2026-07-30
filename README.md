@@ -26,7 +26,7 @@ $ systemctl status yaw.service
      Active: active (running) since 2015; 10+ years
    Main PID: 1 (shipping)
      Status: "Production systems across 43 countries"
-     Domains: edtech · fintech · media · legal · saas
+     Domains: edtech · fintech · media · saas
      CGroup: /system.slice/yaw.service
              ├─ containers      docker · kubernetes
              ├─ infra-as-code   terraform · declarative environments
@@ -65,7 +65,7 @@ timeline
 
 </div>
 
-**Domains:** EdTech · Fintech (payments & biometrics) · Media platforms · Legal case management · SaaS
+**Domains:** EdTech · Fintech (payments & biometrics) · Media platforms · Mobile · Web · SaaS
 
 ## 📐 By the numbers
 
@@ -87,7 +87,7 @@ timeline
 
 ## 📫 Get in touch
 
-Open to site reliability, DevOps and software engineering roles, plus EdTech consulting and research collaboration.
+Systems & Software Engineering, Site reliability, DevOps, EdTech consulting and research collaboration.
 
 <div align="center">
 
