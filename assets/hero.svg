@@ -1,0 +1,53 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yaw Sampene Buadu — Engineer and Researcher">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#131a24" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  <style>
+    .name { font: 800 54px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; letter-spacing: 3px; }
+    .sub  { font: 600 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #7d8590; letter-spacing: 5px; }
+    .pill-label { font: 700 16px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 4px; fill: #58a6ff; }
+    .pill { animation: breathe 3.6s ease-in-out infinite; }
+    .pill-b { animation: breathe 3.6s ease-in-out 1.8s infinite; }
+    @keyframes breathe { 0%,100% { stroke-opacity: .4; } 50% { stroke-opacity: 1; } }
+  </style>
+
+  <rect width="1000" height="300" fill="#080c12"/>
+  <rect width="1000" height="300" fill="url(#grid)"/>
+
+  <!-- corner ticks -->
+  <path d="M24 44V24H44 M956 24h20v20 M976 256v20h-20 M44 276H24v-20" stroke="#21262d" stroke-width="2" fill="none"/>
+
+  <!-- name + subtitle -->
+  <text x="500" y="112" text-anchor="middle" class="name">YAW SAMPENE BUADU</text>
+  <text x="500" y="150" text-anchor="middle" class="sub">SOFTWARE ENGINEERING · SITE RELIABILITY · APPLIED RESEARCH</text>
+
+  <!-- wire -->
+  <line x1="330" y1="215" x2="670" y2="215" stroke="#58a6ff" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- packets travelling the wire -->
+  <circle r="4" fill="#58a6ff">
+    <animateMotion dur="2.6s" repeatCount="indefinite" path="M330 215 H 670"/>
+  </circle>
+  <circle r="4" fill="#58a6ff" opacity="0.6">
+    <animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M670 215 H 330"/>
+  </circle>
+
+  <!-- heartbeat node at the midpoint -->
+  <circle cx="500" cy="215" r="19" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5">
+    <animate attributeName="r" values="19;21;19" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <polyline points="488,215 494,215 497,206 503,224 506,215 512,215" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- engineer pill -->
+  <rect x="140" y="193" width="190" height="44" rx="22" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5" class="pill"/>
+  <text x="235" y="221" text-anchor="middle" class="pill-label">ENGINEER</text>
+
+  <!-- researcher pill -->
+  <rect x="670" y="193" width="190" height="44" rx="22" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5" class="pill-b"/>
+  <text x="765" y="221" text-anchor="middle" class="pill-label">RESEARCHER</text>
+
+  <!-- accent stripe -->
+  <rect y="294" width="1000" height="6" fill="#58a6ff" opacity="0.8"/>
+</svg>
