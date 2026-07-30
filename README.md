@@ -92,7 +92,7 @@ Systems & Software Engineering, Site reliability, DevOps, EdTech consulting and 
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-yawsambuadu%40gmail.com-58A6FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:yawsambuadu@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-58A6FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/YOUR-LINKEDIN-HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-58A6FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/yawsampenebuadu/)
 
 </div>
 
